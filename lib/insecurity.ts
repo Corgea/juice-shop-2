@@ -17,6 +17,7 @@ import * as utils from './utils'
 /* jslint node: true */
 // eslint-disable-next-line @typescript-eslint/prefer-ts-expect-error
 // @ts-expect-error FIXME no typescript definitions for z85 :(
+//editing
 import * as z85 from 'z85'
 
 export const publicKey = fs ? fs.readFileSync('encryptionkeys/jwt.pub', 'utf8') : 'placeholder-public-key'
